@@ -46,18 +46,18 @@ white = 255, 255, 255
 
 screen = pygame.display.set_mode(size)
 #restart
-restart = pygame.image.load("restart.png").convert_alpha()
+restart = pygame.image.load("img/restart.png").convert_alpha()
 restart_rect = restart.get_rect()
 restart_rect.y = 550
 restart_rect.x = 40
 #start
-start = pygame.image.load("start.png").convert_alpha()
+start = pygame.image.load("img/start.png").convert_alpha()
 start_rect = start.get_rect()
 start_rect.x = 550
 start_rect.y = 550
 #Panneaux
-sign_up = pygame.image.load("sign.png").convert_alpha()
-sign_down = pygame.image.load("sign.png").convert_alpha()
+sign_up = pygame.image.load("img/sign.png").convert_alpha()
+sign_down = pygame.image.load("img/sign.png").convert_alpha()
 sign_up_rect = sign_up.get_rect()
 sign_up_rect.center = (400,250)
 sign_down_rect = sign_down.get_rect()
